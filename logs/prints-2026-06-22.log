@@ -1,0 +1,7 @@
+22:32:00.978 [main] WARN  stepDefinations.D_BarcelonaJerseySortStep - Strategy 2 (custom dropdown click) failed: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6eac81e40b484d8037f4d171e37d8247, findElement {using=css selector, value=.woocommerce-ordering, .orderby-wrapper, [class*='sort'], [class*='orderby']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.156, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\cartiace\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63434}, goog:processID: 14444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.48.1:4444/sessi..., se:cdpVersion: 149.0.7827.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eac81e40b484d8037f4d171e37d8247

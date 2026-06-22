@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">68,265</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">cucumberOptions.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1782155820847</td><td rowspan="1">31718</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberOptions.TestRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="1">1782155784640</td><td rowspan="1">36202</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">cucumberOptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate Price Sorting Low to High&quot;</td><td>&quot;Barcelona Jersey Sort Validations&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Sort validation FAILED at position 3: ₹1449.0 should be &lt;= ₹699.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 7: ₹1099.0 should be &lt;= ₹699.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 9: ₹975.0 should be &lt;= ₹799.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 10: ₹799.0 should be &lt;= ₹699.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 12: ₹999.0 should be &lt;= ₹799.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 13: ₹799.0 should be &lt;= ₹699.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 16: ₹999.0 should be &lt;= ₹975.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 18: ₹1075.0 should be &lt;= ₹699.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 20: ₹799.0 should be &lt;= ₹599.0
+ expected [true] but found [false],
+	Sort validation FAILED at position 22: ₹1449.0 should be &lt;= ₹1099.0
+ expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinations.D_BarcelonaJerseySortStep.prices_should_be_sorted_low_to_high(D_BarcelonaJerseySortStep.java:335)
+	at ✽.prices should be sorted from low to high(file:///C:/Users/cartiace/Desktop/framework_project/src/test/resources/features/D_BarcelonaJerseySort.feature:17)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">cucumberOptions.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate Product Names contain Barcelona&quot;</td><td>&quot;Barcelona Jersey Sort Validations&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

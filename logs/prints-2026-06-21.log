@@ -1,0 +1,8 @@
+23:58:31.130 [TestNG-PoolService-2] DEBUG stepDefinations.A_LoginStep - Login Page
+23:58:31.130 [TestNG-PoolService-4] DEBUG stepDefinations.A_LoginStep - Login Page
+23:58:31.130 [TestNG-PoolService-1] DEBUG stepDefinations.A_LoginStep - Login Page
+23:58:31.130 [TestNG-PoolService-3] DEBUG stepDefinations.A_LoginStep - Login Page
+23:58:31.138 [TestNG-PoolService-2] ERROR stepDefinations.A_LoginStep - Exception occured : Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+23:58:31.138 [TestNG-PoolService-1] ERROR stepDefinations.A_LoginStep - Exception occured : Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+23:58:31.138 [TestNG-PoolService-4] ERROR stepDefinations.A_LoginStep - Exception occured : Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+23:58:31.138 [TestNG-PoolService-3] ERROR stepDefinations.A_LoginStep - Exception occured : Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null

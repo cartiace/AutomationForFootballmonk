@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-23T00:46:24 IST" name="Default suite" finished-at="2026-06-23T00:47:32 IST" duration-ms="68265">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@47c81abf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-06-23T00:46:24 IST" name="Default test" finished-at="2026-06-23T00:47:32 IST" duration-ms="68265">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@47c81abf]" started-at="2026-06-23T00:46:24 IST" name="setUpClass" finished-at="2026-06-23T00:46:24 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58a84a12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@47c81abf]" started-at="2026-06-23T00:46:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-23T00:47:00 IST" duration-ms="36202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Product Names contain Barcelona"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Barcelona Jersey Sort Validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@47c81abf]" started-at="2026-06-23T00:47:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-23T00:47:32 IST" duration-ms="31718" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Price Sorting Low to High"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Barcelona Jersey Sort Validations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Sort validation FAILED at position 3: ₹1449.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 7: ₹1099.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 9: ₹975.0 should be <= ₹799.0
+ expected [true] but found [false],
+Sort validation FAILED at position 10: ₹799.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 12: ₹999.0 should be <= ₹799.0
+ expected [true] but found [false],
+Sort validation FAILED at position 13: ₹799.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 16: ₹999.0 should be <= ₹975.0
+ expected [true] but found [false],
+Sort validation FAILED at position 18: ₹1075.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 20: ₹799.0 should be <= ₹599.0
+ expected [true] but found [false],
+Sort validation FAILED at position 22: ₹1449.0 should be <= ₹1099.0
+ expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Sort validation FAILED at position 3: ₹1449.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 7: ₹1099.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 9: ₹975.0 should be <= ₹799.0
+ expected [true] but found [false],
+Sort validation FAILED at position 10: ₹799.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 12: ₹999.0 should be <= ₹799.0
+ expected [true] but found [false],
+Sort validation FAILED at position 13: ₹799.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 16: ₹999.0 should be <= ₹975.0
+ expected [true] but found [false],
+Sort validation FAILED at position 18: ₹1075.0 should be <= ₹699.0
+ expected [true] but found [false],
+Sort validation FAILED at position 20: ₹799.0 should be <= ₹599.0
+ expected [true] but found [false],
+Sort validation FAILED at position 22: ₹1449.0 should be <= ₹1099.0
+ expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at stepDefinations.D_BarcelonaJerseySortStep.prices_should_be_sorted_low_to_high(D_BarcelonaJerseySortStep.java:335)
+at ✽.prices should be sorted from low to high(file:///C:/Users/cartiace/Desktop/framework_project/src/test/resources/features/D_BarcelonaJerseySort.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@47c81abf]" started-at="2026-06-23T00:47:32 IST" name="tearDownClass" finished-at="2026-06-23T00:47:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

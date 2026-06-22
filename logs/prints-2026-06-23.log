@@ -1,0 +1,4 @@
+00:47:28.216 [main] DEBUG stepDefinations.D_BarcelonaJerseySortStep -   value='price' text='Sort by price: low to high'
+00:47:28.269 [main] DEBUG stepDefinations.D_BarcelonaJerseySortStep -   value='price-desc' text='Sort by price: high to low'
+00:47:31.560 [main] DEBUG stepDefinations.D_BarcelonaJerseySortStep - Strategy 1: JS set select.orderby value to 'price' and fired change event
+00:47:31.628 [main] DEBUG stepDefinations.D_BarcelonaJerseySortStep - Sort complete. URL: https://footballmonk.in/product-category/buy-football-jersey-india/barcelona-jerseys/?orderby=price

@@ -1,0 +1,8 @@
+16:40:50.683 [main] DEBUG stepDefinations.A_LoginStep - Sign IN
+16:40:50.996 [main] DEBUG stepDefinations.A_LoginStep - Email Entered
+16:40:51.222 [main] DEBUG stepDefinations.A_LoginStep - Password Entered
+16:40:53.398 [main] DEBUG stepDefinations.A_LoginStep - Logged IN
+16:41:14.187 [main] DEBUG stepDefinations.A_LoginStep - Reached Method
+16:41:20.302 [main] DEBUG stepDefinations.A_LoginStep - URL Launched
+16:41:20.362 [main] DEBUG stepDefinations.A_LoginStep - Window Maximized
+16:41:20.362 [main] DEBUG stepDefinations.A_LoginStep - Login Page
